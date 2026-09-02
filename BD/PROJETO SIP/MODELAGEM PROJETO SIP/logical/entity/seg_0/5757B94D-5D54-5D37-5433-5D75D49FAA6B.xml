@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5757B94D-5D54-5D37-5433-5D75D49FAA6B" name="T_SIP_IMPLANTACAO">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 17:23:11 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_implantacao" id="96F5D9C2-F562-01ED-496A-E63F9B57DECB">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 17:23:45 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_entrada" id="A1B3B136-3100-00CB-363A-60ED04F0909B">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 17:24:03 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_saida" id="2827DF9A-4461-EB28-0634-A1C97534878C">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 17:24:22 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="37C2EA89-DDC7-AC63-BD7B-0A10422793DE" name="T_SIP_IMPLANTACAO PK">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 17:24:00 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>96F5D9C2-F562-01ED-496A-E63F9B57DECB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D89F22AE-248A-80CC-798B-8AC15868A0A5" name="T_SIP_FUNCIONARIO">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 17:15:39 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_matricula" id="71E0A1EA-5D49-9671-98F3-1C2FB9D22DB5">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 17:15:51 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_funcionario" id="DE2FCC03-ACDB-DC0C-260B-067EECFE53F6">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 17:16:03 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="53B81894-893B-9125-0F6C-6AC756EEE558">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 17:16:15 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_admissao" id="65BACB6F-108D-5478-9B78-1F2ACE0DD0C4">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 17:17:12 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereco" id="DEE96504-E2F1-C45E-D4CD-15216A9CAD64">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 17:17:57 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_salario_mensal" id="CFA130FE-CDD2-8621-B604-0F186FF4E28D">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 17:18:07 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="59095D33-DEE3-437E-E355-5FD0319704B0" name="T_SIP_FUNCIONARIO PK">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 17:16:00 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>71E0A1EA-5D49-9671-98F3-1C2FB9D22DB5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="73265E82-361E-AA0C-6913-2FB660A2070C" name="T_SPV_NOTA_FISCAL">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 18:14:34 UTC</createdTime>
+<ownerDesignName>PROJETO SIP 2</ownerDesignName>
+<engineerTo>
+<item key="3067DDD1-CDE4-0A0C-DEA0-6E0395D1AF89" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_nota_fiscal" id="A6235B83-6F13-9F99-0107-2F16E8ADB5AB">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 18:14:45 UTC</createdTime>
+<ownerDesignName>PROJETO SIP 2</ownerDesignName>
+<engineerTo>
+<item key="3067DDD1-CDE4-0A0C-DEA0-6E0395D1AF89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_emissao" id="AC6331D1-F54F-C67E-DAA7-096A82556B39">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 18:15:01 UTC</createdTime>
+<ownerDesignName>PROJETO SIP 2</ownerDesignName>
+<engineerTo>
+<item key="3067DDD1-CDE4-0A0C-DEA0-6E0395D1AF89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_saida" id="AB774B2B-036F-4C62-B581-038C5B1C25DA">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 18:15:09 UTC</createdTime>
+<ownerDesignName>PROJETO SIP 2</ownerDesignName>
+<engineerTo>
+<item key="3067DDD1-CDE4-0A0C-DEA0-6E0395D1AF89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_desconto" id="67BADD57-F3F5-6B57-BE25-4E953770A4C6">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 18:15:21 UTC</createdTime>
+<ownerDesignName>PROJETO SIP 2</ownerDesignName>
+<engineerTo>
+<item key="3067DDD1-CDE4-0A0C-DEA0-6E0395D1AF89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_total_nf" id="554DDD51-157A-2BF2-00FE-12CFFC9FDF8F">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 18:15:29 UTC</createdTime>
+<ownerDesignName>PROJETO SIP 2</ownerDesignName>
+<engineerTo>
+<item key="3067DDD1-CDE4-0A0C-DEA0-6E0395D1AF89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7B4075EF-55C1-926D-0CF8-31E32005FF82" name="T_SPV_NOTA_FISCAL PK">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 18:14:58 UTC</createdTime>
+<ownerDesignName>PROJETO SIP 2</ownerDesignName>
+<engineerTo>
+<item key="3067DDD1-CDE4-0A0C-DEA0-6E0395D1AF89" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A6235B83-6F13-9F99-0107-2F16E8ADB5AB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

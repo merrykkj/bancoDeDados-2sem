@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A44B23E1-4EBA-DF4F-3328-52163648E5A3" name="T_SIP_PROJETO">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 17:21:36 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_projeto" id="569616CA-DD75-6C13-8A20-672A3B793BE1">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 17:21:53 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_projeto" id="EFCF1C3C-1BCC-BC0E-42CD-330CB9BDB69C">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 17:22:04 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio" id="713C78BB-41D8-995E-681E-B3C19CD9439F">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 17:22:19 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_termino" id="6F4BBE4B-A8AD-04C0-FE1C-FAA4E74AE463">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 17:22:44 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="64F62846-8A15-87FC-943E-66BD9CBC21EF" name="T_SIP_PROJETO PK">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 17:22:02 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>569616CA-DD75-6C13-8A20-672A3B793BE1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="666002BB-C551-15DB-A93A-814478C4ABBB" name="T_EXE_CATEGORIA">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 17:17:52 UTC</createdTime>
+<ownerDesignName>PROJETO SIP 3</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_categoria" id="B1511485-20A0-7183-E1AC-C3330F4D90E1">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 17:18:01 UTC</createdTime>
+<ownerDesignName>PROJETO SIP 3</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_categoria" id="6CF67677-0BA8-0BB3-C2D6-014592EE69A4">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 17:18:12 UTC</createdTime>
+<ownerDesignName>PROJETO SIP 3</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BCFFA676-EFE4-A304-32B5-9048301CBE4B" name="T_EXE_CATEGORIA PK">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 17:18:11 UTC</createdTime>
+<ownerDesignName>PROJETO SIP 3</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B1511485-20A0-7183-E1AC-C3330F4D90E1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CLASSIFICARv2" directorySegmentName="seg_0" id="C68B6542-B941-241A-B470-AE0C7C7A14CD">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 19:05:44 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
+<engineerTo>
+<item key="3067DDD1-CDE4-0A0C-DEA0-6E0395D1AF89" value="true"/>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
+</engineerTo>
+<sourcePk>4987986B-220A-0355-7229-4CB7DD7848C0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>15F3BF0A-3A1C-CD9D-0E1B-7FBA62F3AD18</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>73265E82-361E-AA0C-6913-2FB660A2070C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

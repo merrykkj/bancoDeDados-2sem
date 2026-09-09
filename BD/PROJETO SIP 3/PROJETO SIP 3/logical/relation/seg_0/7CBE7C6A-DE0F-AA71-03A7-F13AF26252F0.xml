@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REALIZAR" directorySegmentName="seg_0" id="7CBE7C6A-DE0F-AA71-03A7-F13AF26252F0">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 18:12:48 UTC</createdTime>
+<ownerDesignName>PROJETO SIP 3</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<sourcePk>642B73FB-44D9-1511-867B-D08B27A26E11</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>34B6D38B-260C-E213-E2F4-200BC00B81F9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A10ACFCF-3D27-13D0-CF57-53BC31D23990</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

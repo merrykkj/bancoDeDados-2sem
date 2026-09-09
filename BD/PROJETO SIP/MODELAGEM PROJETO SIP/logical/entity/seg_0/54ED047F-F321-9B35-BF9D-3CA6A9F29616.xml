@@ -15,6 +15,18 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_matricula1" id="7E72AB90-58D2-4E43-6EAD-EC0D1189E5C4">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 18:38:15 UTC</createdTime>
+<generatorID>BEC7ECE1-213D-D421-7919-3D29CEE65426</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
+</engineerTo>
+<referedAttribute>71E0A1EA-5D49-9671-98F3-1C2FB9D22DB5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="cd_dependente" id="AED4B211-48F4-CAC0-C9D6-0B63A1424062">
 <createdBy>aluno</createdBy>
 <createdTime>2026-09-02 17:20:04 UTC</createdTime>
@@ -45,6 +57,16 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="nr_matricula" id="9C5AC18C-074E-C8BC-BBB3-736DD4235E20">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 18:37:46 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="8E490F00-0C02-6996-00DE-1B56FB7D4643" name="T_SIP_DEPENDENTE PK">
@@ -57,6 +79,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>AED4B211-48F4-CAC0-C9D6-0B63A1424062</attributeRef>
+<attributeRef>7E72AB90-58D2-4E43-6EAD-EC0D1189E5C4</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

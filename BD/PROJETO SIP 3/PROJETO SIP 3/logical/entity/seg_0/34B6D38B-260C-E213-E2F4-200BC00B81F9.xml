@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="34B6D38B-260C-E213-E2F4-200BC00B81F9" name="T_EXE_CLIENTE2">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 17:17:19 UTC</createdTime>
+<ownerDesignName>PROJETO SIP 3</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_cliente" id="B2E34AAC-AA97-AC14-AD1B-A41721216DFE">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 17:17:28 UTC</createdTime>
+<ownerDesignName>PROJETO SIP 3</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cliente" id="015379EA-027C-0C9C-61FC-A6CB5C37F81E">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 17:17:38 UTC</createdTime>
+<ownerDesignName>PROJETO SIP 3</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="642B73FB-44D9-1511-867B-D08B27A26E11" name="T_EXE_CLIENTE2 PK">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 17:17:35 UTC</createdTime>
+<ownerDesignName>PROJETO SIP 3</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B2E34AAC-AA97-AC14-AD1B-A41721216DFE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

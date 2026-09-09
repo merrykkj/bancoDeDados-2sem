@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TER" directorySegmentName="seg_0" id="BEC7ECE1-213D-D421-7919-3D29CEE65426">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 18:38:15 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
+</engineerTo>
+<sourcePk>59095D33-DEE3-437E-E355-5FD0319704B0</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D89F22AE-248A-80CC-798B-8AC15868A0A5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>54ED047F-F321-9B35-BF9D-3CA6A9F29616</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

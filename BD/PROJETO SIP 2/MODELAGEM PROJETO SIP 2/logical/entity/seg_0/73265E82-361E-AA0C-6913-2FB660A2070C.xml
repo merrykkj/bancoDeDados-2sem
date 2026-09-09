@@ -2,9 +2,10 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="73265E82-361E-AA0C-6913-2FB660A2070C" name="T_SPV_NOTA_FISCAL">
 <createdBy>aluno</createdBy>
 <createdTime>2026-09-02 18:14:34 UTC</createdTime>
-<ownerDesignName>PROJETO SIP 2</ownerDesignName>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
 <engineerTo>
 <item key="3067DDD1-CDE4-0A0C-DEA0-6E0395D1AF89" value="true"/>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -18,9 +19,10 @@
 <Attribute name="nr_nota_fiscal" id="A6235B83-6F13-9F99-0107-2F16E8ADB5AB">
 <createdBy>aluno</createdBy>
 <createdTime>2026-09-02 18:14:45 UTC</createdTime>
-<ownerDesignName>PROJETO SIP 2</ownerDesignName>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
 <engineerTo>
 <item key="3067DDD1-CDE4-0A0C-DEA0-6E0395D1AF89" value="true"/>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
 </engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -28,9 +30,10 @@
 <Attribute name="dt_emissao" id="AC6331D1-F54F-C67E-DAA7-096A82556B39">
 <createdBy>aluno</createdBy>
 <createdTime>2026-09-02 18:15:01 UTC</createdTime>
-<ownerDesignName>PROJETO SIP 2</ownerDesignName>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
 <engineerTo>
 <item key="3067DDD1-CDE4-0A0C-DEA0-6E0395D1AF89" value="true"/>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
 </engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -38,9 +41,10 @@
 <Attribute name="dt_saida" id="AB774B2B-036F-4C62-B581-038C5B1C25DA">
 <createdBy>aluno</createdBy>
 <createdTime>2026-09-02 18:15:09 UTC</createdTime>
-<ownerDesignName>PROJETO SIP 2</ownerDesignName>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
 <engineerTo>
 <item key="3067DDD1-CDE4-0A0C-DEA0-6E0395D1AF89" value="true"/>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
 </engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -48,9 +52,10 @@
 <Attribute name="vl_desconto" id="67BADD57-F3F5-6B57-BE25-4E953770A4C6">
 <createdBy>aluno</createdBy>
 <createdTime>2026-09-02 18:15:21 UTC</createdTime>
-<ownerDesignName>PROJETO SIP 2</ownerDesignName>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
 <engineerTo>
 <item key="3067DDD1-CDE4-0A0C-DEA0-6E0395D1AF89" value="true"/>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
 </engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -58,10 +63,37 @@
 <Attribute name="vl_total_nf" id="554DDD51-157A-2BF2-00FE-12CFFC9FDF8F">
 <createdBy>aluno</createdBy>
 <createdTime>2026-09-02 18:15:29 UTC</createdTime>
-<ownerDesignName>PROJETO SIP 2</ownerDesignName>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
 <engineerTo>
 <item key="3067DDD1-CDE4-0A0C-DEA0-6E0395D1AF89" value="true"/>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
 </engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cliente" id="A3668DCD-9AF7-4E3C-B2FD-D1D807926B7D">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 18:52:43 UTC</createdTime>
+<generatorID>5E6FD8A8-2F26-3D2C-A365-24AF87901C01</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
+<engineerTo>
+<item key="3067DDD1-CDE4-0A0C-DEA0-6E0395D1AF89" value="true"/>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
+</engineerTo>
+<referedAttribute>BDDBF5A1-3E34-A390-D2F3-433A96182F2C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cfop" id="296A10A3-8B64-0DF6-D33B-602501C9F3C8">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 19:05:44 UTC</createdTime>
+<generatorID>C68B6542-B941-241A-B470-AE0C7C7A14CD</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
+<engineerTo>
+<item key="3067DDD1-CDE4-0A0C-DEA0-6E0395D1AF89" value="true"/>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
+</engineerTo>
+<referedAttribute>27458F90-B02C-FB7D-F0B9-3E2BE1008531</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -70,9 +102,10 @@
 <identifier id="7B4075EF-55C1-926D-0CF8-31E32005FF82" name="T_SPV_NOTA_FISCAL PK">
 <createdBy>aluno</createdBy>
 <createdTime>2026-09-02 18:14:58 UTC</createdTime>
-<ownerDesignName>PROJETO SIP 2</ownerDesignName>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
 <engineerTo>
 <item key="3067DDD1-CDE4-0A0C-DEA0-6E0395D1AF89" value="true"/>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

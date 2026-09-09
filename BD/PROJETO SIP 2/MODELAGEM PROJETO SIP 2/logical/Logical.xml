@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="00CE9072-382E-D61C-BB0D-75579D8A8F21" mainViewID="BB1CBB5B-E50B-E1E7-237B-07F9FFFD9996">
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="C774850B-69B0-58AA-3A34-A0396F730730" mainViewID="7381B7C3-69A5-E5C8-1AD6-AF83AF76222B">
 <createdBy>aluno</createdBy>
-<createdTime>2026-09-02 18:07:03 UTC</createdTime>
-<ownerDesignName>PROJETO SIP 2</ownerDesignName>
+<createdTime>2026-09-02 18:08:06 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
 <shouldBeOpen>false</shouldBeOpen>
 </LogicalDesign>

@@ -75,6 +75,18 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="cd_departamento" id="08A72816-FF07-51B4-B787-DF48E5C3EB5B">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 18:38:48 UTC</createdTime>
+<generatorID>24BABE72-6EFA-94D6-246E-4DCA0FD25DF1</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
+</engineerTo>
+<referedAttribute>6B3555DF-607F-6B28-0886-1FDE24A08DEF</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="59095D33-DEE3-437E-E355-5FD0319704B0" name="T_SIP_FUNCIONARIO PK">

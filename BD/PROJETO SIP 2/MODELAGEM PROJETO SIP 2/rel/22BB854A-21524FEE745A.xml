@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="22BB854A-4CA8-EC22-9171-21524FEE745A" mainViewID="0093E207-FC0A-1F19-14D9-260B9111D870">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 18:08:09 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

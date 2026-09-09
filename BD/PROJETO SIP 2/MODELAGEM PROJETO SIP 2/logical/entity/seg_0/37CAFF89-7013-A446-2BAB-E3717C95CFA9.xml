@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="37CAFF89-7013-A446-2BAB-E3717C95CFA9" name="T_SPV_CLIENTE">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 18:09:03 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
+<engineerTo>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_cliente" id="96877A2F-9CB4-E5C3-4379-911A88343491">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 18:09:44 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
+<engineerTo>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cliente" id="0E6852CF-F75A-DF98-B4C8-ABA945991BC2">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 18:10:04 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
+<engineerTo>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="2220DC0F-6F4E-9E3D-ECFD-F9532CBD5737">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 18:10:04 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
+<engineerTo>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_genero" id="9C981A03-B0A7-72F3-9823-FA12EE4352CB">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 18:10:05 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
+<engineerTo>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereco" id="8EFA335D-376A-AC5C-350B-3E5246D45F69">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 18:10:05 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
+<engineerTo>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_telefone" id="FE6E7C6C-24DF-2F1F-B1A1-4BF55D4A5CB3">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 18:10:06 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
+<engineerTo>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email" id="8952D30C-8C45-1F7B-4428-FBE0B91ECB9E">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 18:12:20 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
+<engineerTo>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cpf" id="867AC259-CD1C-D1BF-977F-7F79C890DC34">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 18:12:20 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
+<engineerTo>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cpf_digito" id="5B960CF4-EA18-9100-B01C-379892D36FFA">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 18:12:21 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
+<engineerTo>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_rg" id="479E9AA4-6835-9515-FBB8-8994305C85EA">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 18:12:21 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
+<engineerTo>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_rg_digito" id="33DB3B44-B02F-A96C-5387-1B766ECBA1DE">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 18:13:00 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
+<engineerTo>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FF771662-E859-B16C-07A7-39A7C1A310E2" name="T_SPV_CLIENTE PK">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 18:10:01 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
+<engineerTo>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>96877A2F-9CB4-E5C3-4379-911A88343491</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="PROJETO SIP 2" id="761C9815-53F0-82C5-2895-987C7B3ADD93" version="3.5">
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MODELAGEM PROJETO SIP 2" id="77EC5EEC-DE09-2723-0D39-3FD1BB600DC1" version="3.5">
 <createdBy>aluno</createdBy>
-<createdTime>2026-09-02 18:07:03 UTC</createdTime>
-<ownerDesignName>PROJETO SIP 2</ownerDesignName>
+<createdTime>2026-09-02 18:08:06 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
 <capitalNames>false</capitalNames>
-<designId>761C9815-53F0-82C5-2895-987C7B3ADD93</designId>
+<designId>77EC5EEC-DE09-2723-0D39-3FD1BB600DC1</designId>
 </OSDM_Design>

@@ -2,9 +2,10 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="91E9D032-E846-993B-2AA5-77FC9BA322B0" name="T_SPV_UNID_CML">
 <createdBy>aluno</createdBy>
 <createdTime>2026-09-02 18:12:33 UTC</createdTime>
-<ownerDesignName>PROJETO SIP 2</ownerDesignName>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
 <engineerTo>
 <item key="3067DDD1-CDE4-0A0C-DEA0-6E0395D1AF89" value="true"/>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -18,9 +19,10 @@
 <Attribute name="cd_unid_cml" id="E262FCF6-327F-6535-EB33-802A01EE67D2">
 <createdBy>aluno</createdBy>
 <createdTime>2026-09-02 18:12:52 UTC</createdTime>
-<ownerDesignName>PROJETO SIP 2</ownerDesignName>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
 <engineerTo>
 <item key="3067DDD1-CDE4-0A0C-DEA0-6E0395D1AF89" value="true"/>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
 </engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -28,9 +30,10 @@
 <Attribute name="sg_unid_cml" id="C6CBA8AD-5D13-41F0-9764-E2CFA622ECAF">
 <createdBy>aluno</createdBy>
 <createdTime>2026-09-02 18:13:03 UTC</createdTime>
-<ownerDesignName>PROJETO SIP 2</ownerDesignName>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
 <engineerTo>
 <item key="3067DDD1-CDE4-0A0C-DEA0-6E0395D1AF89" value="true"/>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
 </engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -38,9 +41,10 @@
 <Attribute name="ds_unid_cml" id="DE9306C3-6FCC-D56A-9B50-B4B5906F4905">
 <createdBy>aluno</createdBy>
 <createdTime>2026-09-02 18:13:13 UTC</createdTime>
-<ownerDesignName>PROJETO SIP 2</ownerDesignName>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
 <engineerTo>
 <item key="3067DDD1-CDE4-0A0C-DEA0-6E0395D1AF89" value="true"/>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
 </engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -50,9 +54,10 @@
 <identifier id="E2CBBBEF-2F4E-4D40-785A-EFE90EC8EFC9" name="T_SPV_UNID_CML PK">
 <createdBy>aluno</createdBy>
 <createdTime>2026-09-02 18:13:01 UTC</createdTime>
-<ownerDesignName>PROJETO SIP 2</ownerDesignName>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
 <engineerTo>
 <item key="3067DDD1-CDE4-0A0C-DEA0-6E0395D1AF89" value="true"/>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

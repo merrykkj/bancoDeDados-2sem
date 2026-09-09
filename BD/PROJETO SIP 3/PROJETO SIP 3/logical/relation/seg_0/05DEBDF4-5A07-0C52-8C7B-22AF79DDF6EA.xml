@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PERTENCER" directorySegmentName="seg_0" id="05DEBDF4-5A07-0C52-8C7B-22AF79DDF6EA">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 18:03:03 UTC</createdTime>
+<ownerDesignName>PROJETO SIP 3</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<sourcePk>AE61FFE0-D652-D30F-2BF2-84E9C6DF912F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>861A7CFE-7EB4-0A74-A744-BA79653ACAC4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F3026F75-BAB8-2F79-6638-E9332AA30060</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

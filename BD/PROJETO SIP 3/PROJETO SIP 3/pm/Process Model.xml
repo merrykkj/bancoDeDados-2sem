@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="B13EE8EB-51C9-61DE-9920-54E18B93B339">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-09 17:13:02 UTC</createdTime>
+<ownerDesignName>PROJETO SIP 3</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

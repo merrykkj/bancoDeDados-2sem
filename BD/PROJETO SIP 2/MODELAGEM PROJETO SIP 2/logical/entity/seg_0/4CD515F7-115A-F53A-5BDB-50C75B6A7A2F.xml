@@ -2,9 +2,10 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4CD515F7-115A-F53A-5BDB-50C75B6A7A2F" name="T_SPV_ITEM_NF">
 <createdBy>aluno</createdBy>
 <createdTime>2026-09-02 18:15:55 UTC</createdTime>
-<ownerDesignName>PROJETO SIP 2</ownerDesignName>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
 <engineerTo>
 <item key="3067DDD1-CDE4-0A0C-DEA0-6E0395D1AF89" value="true"/>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -18,9 +19,10 @@
 <Attribute name="qt_comercializada" id="C1252924-92A7-D10C-DBA2-5524C70C9A1D">
 <createdBy>aluno</createdBy>
 <createdTime>2026-09-02 18:16:14 UTC</createdTime>
-<ownerDesignName>PROJETO SIP 2</ownerDesignName>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
 <engineerTo>
 <item key="3067DDD1-CDE4-0A0C-DEA0-6E0395D1AF89" value="true"/>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
 </engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -28,9 +30,10 @@
 <Attribute name="vl_preco_unitario" id="C25EBBDA-9082-1D7E-D460-507562908230">
 <createdBy>aluno</createdBy>
 <createdTime>2026-09-02 18:16:26 UTC</createdTime>
-<ownerDesignName>PROJETO SIP 2</ownerDesignName>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
 <engineerTo>
 <item key="3067DDD1-CDE4-0A0C-DEA0-6E0395D1AF89" value="true"/>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
 </engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -38,9 +41,10 @@
 <Attribute name="vl_preco_total_item" id="12265B8A-1666-BFBD-CDE3-CF725BF41C23">
 <createdBy>aluno</createdBy>
 <createdTime>2026-09-02 18:16:40 UTC</createdTime>
-<ownerDesignName>PROJETO SIP 2</ownerDesignName>
+<ownerDesignName>MODELAGEM PROJETO SIP 2</ownerDesignName>
 <engineerTo>
 <item key="3067DDD1-CDE4-0A0C-DEA0-6E0395D1AF89" value="true"/>
+<item key="22BB854A-4CA8-EC22-9171-21524FEE745A" value="true"/>
 </engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6A16370F-DEF6-01FA-B604-760683386F7E" name="T_SPV_UNID_CML">
+<createdBy>User</createdBy>
+<createdTime>2026-09-07 18:12:18 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_unid_cml" id="7FEBD343-3E6F-AE74-D5BA-96ECF4219F02">
+<createdBy>User</createdBy>
+<createdTime>2026-09-07 18:12:39 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sg_unid_cml" id="334D4880-B90E-69F7-496E-9D0BFED0243E">
+<createdBy>User</createdBy>
+<createdTime>2026-09-07 18:13:04 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_unid_cml" id="881449FF-92D7-2407-C2B0-07D2952F1E0C">
+<createdBy>User</createdBy>
+<createdTime>2026-09-07 18:13:24 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A717FE93-345A-BB52-BEE3-B0F26FAFE800" name="T_SPV_UNID_CML PK">
+<createdBy>User</createdBy>
+<createdTime>2026-09-07 18:13:01 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7FEBD343-3E6F-AE74-D5BA-96ECF4219F02</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

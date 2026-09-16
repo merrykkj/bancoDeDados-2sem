@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COMPRAR" directorySegmentName="seg_0" id="192E645D-F6B5-626B-1D8F-EABE9F74A114">
+<createdBy>User</createdBy>
+<createdTime>2026-09-09 19:04:16 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
+</engineerTo>
+<sourcePk>219615DA-F2E2-71A4-0214-71169C176D38</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9D36F54C-D155-53A8-33B8-9B57762217D4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BEB4E1DA-56BA-6DF7-CBBF-811318C23D65</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

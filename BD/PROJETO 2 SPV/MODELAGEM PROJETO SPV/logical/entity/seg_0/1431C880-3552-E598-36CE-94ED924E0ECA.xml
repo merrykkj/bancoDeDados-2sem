@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1431C880-3552-E598-36CE-94ED924E0ECA" name="T_SPV_CLASSIF_FISCAL">
+<createdBy>User</createdBy>
+<createdTime>2026-09-07 18:13:52 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_cfop" id="3815F1BA-B4B3-5D23-02E9-3E0CD5971C64">
+<createdBy>User</createdBy>
+<createdTime>2026-09-07 18:14:50 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_tipo_operacao" id="915F682C-4BD4-9ADC-687D-2D3DA7FEA196">
+<createdBy>User</createdBy>
+<createdTime>2026-09-07 18:15:28 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_nat_operacao" id="40BB8B08-D2A5-574F-2986-268AA109973F">
+<createdBy>User</createdBy>
+<createdTime>2026-09-07 18:16:07 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_nat_operacao" id="13925555-3F80-1BEF-D0E1-5D867D36E3E2">
+<createdBy>User</createdBy>
+<createdTime>2026-09-07 18:18:17 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5C3CA8EF-4BA4-C562-7786-3AE90B9A1EA3" name="T_SPV_CLASSIF_FISCAL PK">
+<createdBy>User</createdBy>
+<createdTime>2026-09-07 18:15:25 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3815F1BA-B4B3-5D23-02E9-3E0CD5971C64</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

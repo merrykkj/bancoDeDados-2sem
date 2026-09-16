@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COMERCIALIZAR" directorySegmentName="seg_0" id="6749DE8A-C30A-7E92-0315-E0D88452251A">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-16 18:24:21 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
+</engineerTo>
+<sourcePk>05652606-5D38-9D90-DFF3-3DC53C1D5BC3</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BEB4E1DA-56BA-6DF7-CBBF-811318C23D65</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>66F51BB0-CD4E-4B1A-2338-D02563B651B9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

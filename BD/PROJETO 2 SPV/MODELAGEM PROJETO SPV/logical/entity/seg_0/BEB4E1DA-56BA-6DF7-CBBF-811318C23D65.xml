@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BEB4E1DA-56BA-6DF7-CBBF-811318C23D65" name="T_SPV_NOTA_FISCAL">
+<createdBy>User</createdBy>
+<createdTime>2026-09-07 21:07:47 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_nota_fiscal" id="281C8E07-C4FD-56E9-47FC-53F3DEE700D5">
+<createdBy>User</createdBy>
+<createdTime>2026-09-07 21:07:55 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name=" cd_cliente" id="F189F067-AE02-E98B-6676-5E7B78FA3DF3">
+<createdBy>User</createdBy>
+<createdTime>2026-09-09 19:04:16 UTC</createdTime>
+<generatorID>192E645D-F6B5-626B-1D8F-EABE9F74A114</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
+</engineerTo>
+<referedAttribute>50A5DF81-ECE9-22C7-1FC8-24462D8A51AB</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_emissao" id="29B74BF4-70D1-9E82-3FD9-3898B05B7364">
+<createdBy>User</createdBy>
+<createdTime>2026-09-07 21:08:25 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_saida" id="FF3960AE-F593-E453-9438-3EB576F0552B">
+<createdBy>User</createdBy>
+<createdTime>2026-09-07 21:09:03 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_desconto" id="AE9E6375-056C-B431-1B12-C26FC108AFA3">
+<createdBy>User</createdBy>
+<createdTime>2026-09-07 21:09:35 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_total_nf" id="6878C08B-C5C3-5197-6EE4-2428EC26DA0F">
+<createdBy>User</createdBy>
+<createdTime>2026-09-07 21:16:44 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cfop" id="55E37023-8AA5-7AA4-F7F2-6A56B8A73CF9">
+<createdBy>User</createdBy>
+<createdTime>2026-09-09 19:16:44 UTC</createdTime>
+<generatorID>57C2B535-7A69-25C2-E3AD-11B65DCBB9E0</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
+</engineerTo>
+<referedAttribute>3815F1BA-B4B3-5D23-02E9-3E0CD5971C64</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="05652606-5D38-9D90-DFF3-3DC53C1D5BC3" name="T_SPV_NOTA_FISCAL PK">
+<createdBy>User</createdBy>
+<createdTime>2026-09-07 21:08:22 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>281C8E07-C4FD-56E9-47FC-53F3DEE700D5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A10A33A7-7C74-ACB8-3DEE-4AC05431B01C" name="T_SPV_PRODUTO">
+<createdBy>User</createdBy>
+<createdTime>2026-09-07 18:08:29 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_produto" id="D7D191DA-CB24-1967-F6D2-0658F4B11B02">
+<createdBy>User</createdBy>
+<createdTime>2026-09-07 18:09:11 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_unid_cml" id="5B0D90E2-8654-43C2-0686-3D8EA03EBCC8">
+<createdBy>User</createdBy>
+<createdTime>2026-09-09 19:10:51 UTC</createdTime>
+<generatorID>7C145D78-A8BA-0829-FEC0-9883933BEB9D</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
+</engineerTo>
+<referedAttribute>7FEBD343-3E6F-AE74-D5BA-96ECF4219F02</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_produto" id="46F2D241-5C75-34B8-8AB8-417E5C19FD73">
+<createdBy>User</createdBy>
+<createdTime>2026-09-07 18:09:39 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_completa_produto" id="9CCBCABE-5B02-D582-44BA-27E5AC34F9C9">
+<createdBy>User</createdBy>
+<createdTime>2026-09-07 18:10:16 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt_estoque" id="64CFC0E1-E2E8-77E4-493C-5AFB2A2294E5">
+<createdBy>User</createdBy>
+<createdTime>2026-09-07 18:10:30 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_preco_unitario" id="83E90172-C49C-953A-8BC3-EDC174308CC7">
+<createdBy>User</createdBy>
+<createdTime>2026-09-07 18:11:17 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D5169A2D-1366-D581-8D7F-22D550731C45" name="T_SPV_PRODUTO PK">
+<createdBy>User</createdBy>
+<createdTime>2026-09-07 18:09:35 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D7D191DA-CB24-1967-F6D2-0658F4B11B02</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="IMPLANTARv1" directorySegmentName="seg_0" id="9DB26677-50B0-8F3A-9B60-D9350BB155E8">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-16 17:20:26 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
+</engineerTo>
+<sourcePk>64F62846-8A15-87FC-943E-66BD9CBC21EF</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A44B23E1-4EBA-DF4F-3328-52163648E5A3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5757B94D-5D54-5D37-5433-5D75D49FAA6B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

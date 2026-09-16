@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PERTENCER" directorySegmentName="seg_0" id="71E38B93-30D3-31FC-E8EA-6EF37A910804">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-16 18:27:22 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
+</engineerTo>
+<sourcePk>D5169A2D-1366-D581-8D7F-22D550731C45</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A10A33A7-7C74-ACB8-3DEE-4AC05431B01C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>66F51BB0-CD4E-4B1A-2338-D02563B651B9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

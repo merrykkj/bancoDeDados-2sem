@@ -15,6 +15,18 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_projeto" id="CDD34C28-40EB-8C1D-50A9-47A3B9437BDA">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-16 17:20:26 UTC</createdTime>
+<generatorID>9DB26677-50B0-8F3A-9B60-D9350BB155E8</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
+</engineerTo>
+<referedAttribute>569616CA-DD75-6C13-8A20-672A3B793BE1</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="cd_implantacao" id="96F5D9C2-F562-01ED-496A-E63F9B57DECB">
 <createdBy>aluno</createdBy>
 <createdTime>2026-09-02 17:23:45 UTC</createdTime>
@@ -22,6 +34,18 @@
 <engineerTo>
 <item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
 </engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_matricula" id="3A608FB8-EA29-83CA-9911-86CFC2556D50">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-16 17:22:42 UTC</createdTime>
+<generatorID>C236388F-35FA-B499-D7D5-38B529A72898</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
+</engineerTo>
+<referedAttribute>71E0A1EA-5D49-9671-98F3-1C2FB9D22DB5</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -58,6 +82,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>96F5D9C2-F562-01ED-496A-E63F9B57DECB</attributeRef>
+<attributeRef>CDD34C28-40EB-8C1D-50A9-47A3B9437BDA</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

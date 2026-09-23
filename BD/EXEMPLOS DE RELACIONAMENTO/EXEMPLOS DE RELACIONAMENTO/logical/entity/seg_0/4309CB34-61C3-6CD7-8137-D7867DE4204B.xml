@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4309CB34-61C3-6CD7-8137-D7867DE4204B" name="T_PRONTUARIO">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-23 18:40:38 UTC</createdTime>
+<ownerDesignName>EXEMPLOS DE RELACIONAMENTO</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_paciente" id="1AE44BBD-395E-4AAB-507E-AA7D3B9FBE89">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-23 18:41:03 UTC</createdTime>
+<generatorID>8D3A2279-A1BD-B7AC-F8A7-E0EED7B607B7</generatorID>
+<ownerDesignName>EXEMPLOS DE RELACIONAMENTO</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<referedAttribute>31B57D68-029B-763A-A380-17274F5BF7C2</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_prontuario" id="FF1A747B-1D09-96C2-D28C-10F1446CBCB5">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-23 18:40:45 UTC</createdTime>
+<ownerDesignName>EXEMPLOS DE RELACIONAMENTO</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_pronturario" id="A5AA953A-77FB-C2B5-7697-A5F41BBEF1F5">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-23 18:40:50 UTC</createdTime>
+<ownerDesignName>EXEMPLOS DE RELACIONAMENTO</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="124A0873-8952-6EE5-BCA7-3179BDC5155F" name="T_PRONTUARIO PK">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-23 18:40:49 UTC</createdTime>
+<ownerDesignName>EXEMPLOS DE RELACIONAMENTO</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FF1A747B-1D09-96C2-D28C-10F1446CBCB5</attributeRef>
+<attributeRef>1AE44BBD-395E-4AAB-507E-AA7D3B9FBE89</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

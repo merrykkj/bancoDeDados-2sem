@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2683B80F-5BB4-736E-3987-F81F4A8DED46" name="T_ALUNO">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-23 17:15:12 UTC</createdTime>
+<ownerDesignName>EXEMPLOS DE RELACIONAMENTO</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_aluno" id="EB13AA33-BFBE-E9AC-F59A-5A201AC306E8">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-23 17:15:37 UTC</createdTime>
+<ownerDesignName>EXEMPLOS DE RELACIONAMENTO</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_aluno" id="21B01C65-0313-CAD2-600A-1D9A8E02B308">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-23 17:15:29 UTC</createdTime>
+<ownerDesignName>EXEMPLOS DE RELACIONAMENTO</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="622EC1C0-CE37-705B-1D31-2435E7FCF78C" name="T_ALUNO PK">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-23 17:15:46 UTC</createdTime>
+<ownerDesignName>EXEMPLOS DE RELACIONAMENTO</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EB13AA33-BFBE-E9AC-F59A-5A201AC306E8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

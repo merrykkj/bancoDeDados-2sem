@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MATRICULARv2" directorySegmentName="seg_0" id="8FB25A41-FABA-70A2-6642-E9CDD3BD3A56">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-23 18:24:36 UTC</createdTime>
+<ownerDesignName>EXEMPLOS DE RELACIONAMENTO</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<sourcePk>A0B255E0-B32C-4F45-0E3A-54D0D15624E8</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>605FC807-433B-738F-15A5-5DF02AEE9BE4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E03F5D38-8F37-AD7C-3E4F-E2FACD598829</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

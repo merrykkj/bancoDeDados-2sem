@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="903C1E01-85D4-111D-88D5-E2352D58B314" name="T_ALUNOv1">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-23 18:22:38 UTC</createdTime>
+<ownerDesignName>EXEMPLOS DE RELACIONAMENTO</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_aluno" id="649654D3-71E8-8338-A5DF-1C8B403C6CEA">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-23 18:22:45 UTC</createdTime>
+<ownerDesignName>EXEMPLOS DE RELACIONAMENTO</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_aluno" id="5A3FC037-36C7-25D3-5F44-6B81711A9B45">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-23 18:22:51 UTC</createdTime>
+<ownerDesignName>EXEMPLOS DE RELACIONAMENTO</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B924F589-8C9B-3614-7FEA-922319E596BC" name="T_ALUNO PK">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-23 18:22:50 UTC</createdTime>
+<ownerDesignName>EXEMPLOS DE RELACIONAMENTO</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>649654D3-71E8-8338-A5DF-1C8B403C6CEA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

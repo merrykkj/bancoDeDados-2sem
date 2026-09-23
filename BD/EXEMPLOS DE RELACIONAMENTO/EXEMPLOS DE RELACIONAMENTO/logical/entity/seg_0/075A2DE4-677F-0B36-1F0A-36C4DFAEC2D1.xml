@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="075A2DE4-677F-0B36-1F0A-36C4DFAEC2D1" name="T_CONSULTA">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-23 18:30:13 UTC</createdTime>
+<ownerDesignName>EXEMPLOS DE RELACIONAMENTO</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_consulta" id="B4C94C49-9B41-D038-CCB2-C7B54846F291">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-23 18:30:19 UTC</createdTime>
+<ownerDesignName>EXEMPLOS DE RELACIONAMENTO</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_medico" id="3E3E4BA6-6BF1-C79E-963A-EF47FFE0B4FD">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-23 18:32:31 UTC</createdTime>
+<generatorID>73FC2C65-B2F6-D363-98E8-4FCFB7EEFB7F</generatorID>
+<ownerDesignName>EXEMPLOS DE RELACIONAMENTO</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<referedAttribute>FF6884EF-55BD-1CF2-64BE-5818BCB4804D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_paciente" id="CAE7EC23-4CAB-4EF9-5C20-65B6801E092C">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-23 18:33:53 UTC</createdTime>
+<generatorID>03478808-FC97-A2BC-8D04-1A1FD915ADA9</generatorID>
+<ownerDesignName>EXEMPLOS DE RELACIONAMENTO</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<referedAttribute>A7BC301A-0E34-2D56-1A27-6456BFE3BD9A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_consulta" id="5D39BB7A-82E2-13E1-3966-D0FFF9087870">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-23 18:30:25 UTC</createdTime>
+<ownerDesignName>EXEMPLOS DE RELACIONAMENTO</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F0DDBB83-3195-4259-0DB9-ABA64EA0FFDF" name="T_CONSULTA PK">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-23 18:30:23 UTC</createdTime>
+<ownerDesignName>EXEMPLOS DE RELACIONAMENTO</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B4C94C49-9B41-D038-CCB2-C7B54846F291</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

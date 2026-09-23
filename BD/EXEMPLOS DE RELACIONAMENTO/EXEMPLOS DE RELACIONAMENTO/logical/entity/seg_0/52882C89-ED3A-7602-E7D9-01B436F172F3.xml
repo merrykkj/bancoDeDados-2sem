@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="52882C89-ED3A-7602-E7D9-01B436F172F3" name="T_EXAME_MEDICO">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-23 17:13:08 UTC</createdTime>
+<ownerDesignName>EXEMPLOS DE RELACIONAMENTO</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_paciente" id="CCCF9DA2-9F19-738D-5478-F4A6747A2C4C">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-23 17:14:48 UTC</createdTime>
+<generatorID>47115B0C-7341-C7E9-FA82-F1EFDB8AC690</generatorID>
+<ownerDesignName>EXEMPLOS DE RELACIONAMENTO</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<referedAttribute>8F8B5E92-5E25-C3BC-86D7-974A6CA0BA46</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_exame_medico" id="E04B715A-68EC-4DDB-4D84-F1D4B75B94FE">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-23 17:13:20 UTC</createdTime>
+<ownerDesignName>EXEMPLOS DE RELACIONAMENTO</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_exame_medico" id="4C6F99D2-1632-F302-CC25-12DCCDC4AAD3">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-23 17:14:15 UTC</createdTime>
+<ownerDesignName>EXEMPLOS DE RELACIONAMENTO</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FD2C0B44-8ED7-4544-EC17-F4AC8BDFEC6C" name="T_EXAME_MEDICO PK">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-23 17:14:13 UTC</createdTime>
+<ownerDesignName>EXEMPLOS DE RELACIONAMENTO</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E04B715A-68EC-4DDB-4D84-F1D4B75B94FE</attributeRef>
+<attributeRef>CCCF9DA2-9F19-738D-5478-F4A6747A2C4C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

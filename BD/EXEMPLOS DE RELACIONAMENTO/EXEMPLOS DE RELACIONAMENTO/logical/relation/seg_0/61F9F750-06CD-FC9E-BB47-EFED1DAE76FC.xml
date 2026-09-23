@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PERTENCERv2" directorySegmentName="seg_0" id="61F9F750-06CD-FC9E-BB47-EFED1DAE76FC">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-23 17:18:27 UTC</createdTime>
+<ownerDesignName>EXEMPLOS DE RELACIONAMENTO</ownerDesignName>
+<engineerTo>
+<item key="58000620-EA49-5E0C-9BDD-96F273B4F9E4" value="true"/>
+</engineerTo>
+<sourcePk>622EC1C0-CE37-705B-1D31-2435E7FCF78C</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2683B80F-5BB4-736E-3987-F81F4A8DED46</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>58299BCC-BC96-5B12-5B0D-35E738D42383</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

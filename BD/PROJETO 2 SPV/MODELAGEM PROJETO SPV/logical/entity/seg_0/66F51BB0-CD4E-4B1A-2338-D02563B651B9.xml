@@ -24,7 +24,10 @@
 <item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
 </engineerTo>
 <referedAttribute>281C8E07-C4FD-56E9-47FC-53F3DEE700D5</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="qt_comercializada" id="C7EAC4F9-6AF1-003A-1ECE-8D531F689DE3">
@@ -34,8 +37,11 @@
 <engineerTo>
 <item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="vl_preco_unitario" id="C9F14916-5439-92E4-51BF-EEACEEEA318F">
 <createdBy>User</createdBy>
@@ -44,8 +50,12 @@
 <engineerTo>
 <item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="vl_preco_total_item" id="056E475E-6DD3-CB34-BE73-17A267916382">
 <createdBy>User</createdBy>
@@ -54,8 +64,12 @@
 <engineerTo>
 <item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cd_produto" id="FCFD5675-9A31-1C32-5F3D-27E44E779FBF">
 <createdBy>aluno</createdBy>
@@ -66,7 +80,10 @@
 <item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
 </engineerTo>
 <referedAttribute>D7D191DA-CB24-1967-F6D2-0658F4B11B02</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

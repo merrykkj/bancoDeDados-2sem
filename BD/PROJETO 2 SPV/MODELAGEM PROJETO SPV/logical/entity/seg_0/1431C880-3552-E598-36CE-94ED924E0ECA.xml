@@ -22,8 +22,11 @@
 <engineerTo>
 <item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nr_tipo_operacao" id="915F682C-4BD4-9ADC-687D-2D3DA7FEA196">
 <createdBy>User</createdBy>
@@ -32,8 +35,11 @@
 <engineerTo>
 <item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nm_nat_operacao" id="40BB8B08-D2A5-574F-2986-268AA109973F">
 <createdBy>User</createdBy>
@@ -42,8 +48,11 @@
 <engineerTo>
 <item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ds_nat_operacao" id="13925555-3F80-1BEF-D0E1-5D867D36E3E2">
 <createdBy>User</createdBy>
@@ -52,8 +61,11 @@
 <engineerTo>
 <item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400</dataTypeSize>
+<ownDataTypeParameters>400,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

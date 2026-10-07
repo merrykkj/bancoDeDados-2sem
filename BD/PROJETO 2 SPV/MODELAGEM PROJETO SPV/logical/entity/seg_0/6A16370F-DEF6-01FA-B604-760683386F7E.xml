@@ -22,8 +22,11 @@
 <engineerTo>
 <item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="sg_unid_cml" id="334D4880-B90E-69F7-496E-9D0BFED0243E">
 <createdBy>User</createdBy>
@@ -32,8 +35,11 @@
 <engineerTo>
 <item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ds_unid_cml" id="881449FF-92D7-2407-C2B0-07D2952F1E0C">
 <createdBy>User</createdBy>
@@ -42,8 +48,11 @@
 <engineerTo>
 <item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

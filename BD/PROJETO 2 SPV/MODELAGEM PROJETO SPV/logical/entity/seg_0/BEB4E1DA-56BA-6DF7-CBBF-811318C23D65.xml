@@ -22,8 +22,11 @@
 <engineerTo>
 <item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name=" cd_cliente" id="F189F067-AE02-E98B-6676-5E7B78FA3DF3">
 <createdBy>User</createdBy>
@@ -34,7 +37,10 @@
 <item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
 </engineerTo>
 <referedAttribute>50A5DF81-ECE9-22C7-1FC8-24462D8A51AB</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="dt_emissao" id="29B74BF4-70D1-9E82-3FD9-3898B05B7364">
@@ -44,7 +50,9 @@
 <engineerTo>
 <item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="dt_saida" id="FF3960AE-F593-E453-9438-3EB576F0552B">
@@ -54,7 +62,9 @@
 <engineerTo>
 <item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="vl_desconto" id="AE9E6375-056C-B431-1B12-C26FC108AFA3">
@@ -64,8 +74,12 @@
 <engineerTo>
 <item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,3,1</ownDataTypeParameters>
 </Attribute>
 <Attribute name="vl_total_nf" id="6878C08B-C5C3-5197-6EE4-2428EC26DA0F">
 <createdBy>User</createdBy>
@@ -74,8 +88,12 @@
 <engineerTo>
 <item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,11,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nr_cfop" id="55E37023-8AA5-7AA4-F7F2-6A56B8A73CF9">
 <createdBy>User</createdBy>
@@ -86,7 +104,10 @@
 <item key="EF6320B8-F602-26C7-08C7-AAB219DEF129" value="true"/>
 </engineerTo>
 <referedAttribute>3815F1BA-B4B3-5D23-02E9-3E0CD5971C64</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

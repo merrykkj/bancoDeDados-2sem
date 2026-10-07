@@ -22,58 +22,11 @@
 <engineerTo>
 <item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nm_funcionario" id="DE2FCC03-ACDB-DC0C-260B-067EECFE53F6">
-<createdBy>aluno</createdBy>
-<createdTime>2026-09-02 17:16:03 UTC</createdTime>
-<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
-<engineerTo>
-<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="dt_nascimento" id="53B81894-893B-9125-0F6C-6AC756EEE558">
-<createdBy>aluno</createdBy>
-<createdTime>2026-09-02 17:16:15 UTC</createdTime>
-<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
-<engineerTo>
-<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="dt_admissao" id="65BACB6F-108D-5478-9B78-1F2ACE0DD0C4">
-<createdBy>aluno</createdBy>
-<createdTime>2026-09-02 17:17:12 UTC</createdTime>
-<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
-<engineerTo>
-<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ds_endereco" id="DEE96504-E2F1-C45E-D4CD-15216A9CAD64">
-<createdBy>aluno</createdBy>
-<createdTime>2026-09-02 17:17:57 UTC</createdTime>
-<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
-<engineerTo>
-<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="vl_salario_mensal" id="CFA130FE-CDD2-8621-B604-0F186FF4E28D">
-<createdBy>aluno</createdBy>
-<createdTime>2026-09-02 17:18:07 UTC</createdTime>
-<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
-<engineerTo>
-<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cd_departamento" id="08A72816-FF07-51B4-B787-DF48E5C3EB5B">
 <createdBy>aluno</createdBy>
@@ -84,8 +37,75 @@
 <item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
 </engineerTo>
 <referedAttribute>6B3555DF-607F-6B28-0886-1FDE24A08DEF</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_funcionario" id="DE2FCC03-ACDB-DC0C-260B-067EECFE53F6">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 17:16:03 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="53B81894-893B-9125-0F6C-6AC756EEE558">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 17:16:15 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_admissao" id="65BACB6F-108D-5478-9B78-1F2ACE0DD0C4">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 17:17:12 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereco" id="DEE96504-E2F1-C45E-D4CD-15216A9CAD64">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 17:17:57 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_salario_mensal" id="CFA130FE-CDD2-8621-B604-0F186FF4E28D">
+<createdBy>aluno</createdBy>
+<createdTime>2026-09-02 17:18:07 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

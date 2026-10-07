@@ -24,7 +24,10 @@
 <item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
 </engineerTo>
 <referedAttribute>569616CA-DD75-6C13-8A20-672A3B793BE1</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cd_implantacao" id="96F5D9C2-F562-01ED-496A-E63F9B57DECB">
@@ -34,8 +37,11 @@
 <engineerTo>
 <item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nr_matricula" id="3A608FB8-EA29-83CA-9911-86CFC2556D50">
 <createdBy>aluno</createdBy>
@@ -46,7 +52,9 @@
 <item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
 </engineerTo>
 <referedAttribute>71E0A1EA-5D49-9671-98F3-1C2FB9D22DB5</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="dt_entrada" id="A1B3B136-3100-00CB-363A-60ED04F0909B">
@@ -56,7 +64,9 @@
 <engineerTo>
 <item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="dt_saida" id="2827DF9A-4461-EB28-0634-A1C97534878C">
@@ -67,7 +77,9 @@
 <item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

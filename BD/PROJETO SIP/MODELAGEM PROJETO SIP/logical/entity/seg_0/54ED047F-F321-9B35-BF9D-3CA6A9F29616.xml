@@ -24,7 +24,10 @@
 <item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
 </engineerTo>
 <referedAttribute>71E0A1EA-5D49-9671-98F3-1C2FB9D22DB5</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cd_dependente" id="AED4B211-48F4-CAC0-C9D6-0B63A1424062">
@@ -34,8 +37,11 @@
 <engineerTo>
 <item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nm_dependente" id="9A6F38C5-3D34-AA0E-60F0-A8EE7306BE77">
 <createdBy>aluno</createdBy>
@@ -44,8 +50,11 @@
 <engineerTo>
 <item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="dt_nascimento" id="C335CA40-85F3-EE7C-FEEF-ECCBBAF3702D">
 <createdBy>aluno</createdBy>
@@ -54,17 +63,9 @@
 <engineerTo>
 <item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nr_matricula" id="9C5AC18C-074E-C8BC-BBB3-736DD4235E20">
-<createdBy>aluno</createdBy>
-<createdTime>2026-09-09 18:37:46 UTC</createdTime>
-<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
-<engineerTo>
-<item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
-</engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

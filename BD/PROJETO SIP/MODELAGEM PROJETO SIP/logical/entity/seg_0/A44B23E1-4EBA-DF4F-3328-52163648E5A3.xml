@@ -22,8 +22,11 @@
 <engineerTo>
 <item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nm_projeto" id="EFCF1C3C-1BCC-BC0E-42CD-330CB9BDB69C">
 <createdBy>aluno</createdBy>
@@ -32,8 +35,11 @@
 <engineerTo>
 <item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="dt_inicio" id="713C78BB-41D8-995E-681E-B3C19CD9439F">
 <createdBy>aluno</createdBy>
@@ -42,7 +48,9 @@
 <engineerTo>
 <item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="dt_termino" id="6F4BBE4B-A8AD-04C0-FE1C-FAA4E74AE463">
@@ -53,7 +61,9 @@
 <item key="62B60769-21C6-5AEA-E8E5-C002A11A03EA" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

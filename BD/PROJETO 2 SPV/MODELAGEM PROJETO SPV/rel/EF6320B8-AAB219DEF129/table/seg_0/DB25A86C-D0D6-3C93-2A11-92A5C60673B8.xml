@@ -157,4 +157,16 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_T_SPV_CLIENTE_GENERO" directorySegmentName="seg_0" id="A43EEC06-D888-A2BB-F2B6-DF116B8467A3">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 19:13:43 UTC</createdTime>
+<comment><![CDATA[RN05 – Os gêneros aplicados em nossos cadastros, são: Homem (H), Mulher (M) e não 
+binário (NB). ]]></comment>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<rule><![CDATA[UPPER(DS_GENERO) = 'H'OR 
+UPPER(DS_GENERO) = 'M' OR
+UPPER(DS_GENERO) = 'NB']]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>

@@ -137,4 +137,17 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_T_SPV_Nf_DESCONTO" directorySegmentName="seg_0" id="03102883-157D-C435-C42B-89DC351A6588">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 19:22:31 UTC</createdTime>
+<comment><![CDATA[RN21 – O valor do desconto praticado por nossa empresa varia de 0,0% a 25,0%, nunca 
+ultrapassando este valor. Quando nenhum desconto for praticado, deve-se armazenar 
+ZERO. ]]></comment>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<rule><![CDATA[VL_DESCONTO >= 0 AND VL_DESCONTO <= 25
+-- BETWEEN -> AVALIA INTERVALOS FECHADOS
+-- VL_DESCONTO BETWEEN 0 AND 25]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>

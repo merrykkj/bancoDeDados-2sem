@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5D59F37-B1B6-AB5D-E7DC-38C25C5407A8" name="T_SIP_FUNCIONARIO">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 16:45:10 UTC</createdTime>
+<generatorID>D89F22AE-248A-80CC-798B-8AC15868A0A5</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_matricula" id="77596EAC-C256-2992-D98D-0CE6A091E93B">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 16:45:10 UTC</createdTime>
+<generatorID>71E0A1EA-5D49-9671-98F3-1C2FB9D22DB5</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_departamento" id="61273DC3-70BF-5C98-04FD-6B96B54788EE">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 16:45:10 UTC</createdTime>
+<generatorID>08A72816-FF07-51B4-B787-DF48E5C3EB5B</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E30DBCFE-41C0-D260-5F78-73D2BBA0958C" referredColumn="A7B5F906-2ADC-8566-36AB-900A86BA072F"/>
+</associations>
+</Column>
+<Column name="nm_funcionario" id="B0317AE6-9FF1-4F0E-FBCB-2E959135314C">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 16:45:10 UTC</createdTime>
+<generatorID>DE2FCC03-ACDB-DC0C-260B-067EECFE53F6</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="6CA7D56C-5AC3-89F5-F4EB-562972A994F9">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 16:45:10 UTC</createdTime>
+<generatorID>53B81894-893B-9125-0F6C-6AC756EEE558</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_admissao" id="03C2491F-3C2E-738C-D6BA-90F09209842A">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 16:45:10 UTC</createdTime>
+<generatorID>65BACB6F-108D-5478-9B78-1F2ACE0DD0C4</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<constraintName>DF_T_SIP_FUNC_ADMISSAO</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_endereco" id="0D8AAF6B-32C7-89DA-7567-7DEEECAB7EAA">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 16:45:10 UTC</createdTime>
+<generatorID>DEE96504-E2F1-C45E-D4CD-15216A9CAD64</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_salario_mensal" id="C4196535-91A0-B194-34DE-F396B117745D">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 16:45:10 UTC</createdTime>
+<generatorID>CFA130FE-CDD2-8621-B604-0F186FF4E28D</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC854BBA-578D-6034-76A4-14971A4BAEA5" name="PK_T_SIP_FUNCIONARIO">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 16:45:10 UTC</createdTime>
+<generatorID>59095D33-DEE3-437E-E355-5FD0319704B0</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77596EAC-C256-2992-D98D-0CE6A091E93B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6762C6C9-29C1-C8CA-3136-5B1EE69728E5" name="FK_T_SIP_FUNC_DEPTO">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 16:45:10 UTC</createdTime>
+<generatorID>24BABE72-6EFA-94D6-246E-4DCA0FD25DF1</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61273DC3-70BF-5C98-04FD-6B96B54788EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_T_SIP_FUNC_SALARIO" directorySegmentName="seg_0" id="346F5B00-6AC5-ABBF-CD7F-6C765E564D33">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 18:28:55 UTC</createdTime>
+<comment><![CDATA[RN22 – Todos os funcionários possuem um salário acima ou igual ao salário mínimo (Em 
+2020, R$ 1.045,00). O maior salário atualmente é de R$ 18.000,00]]></comment>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<rule><![CDATA[VL_SALARIO_MENSAL >= 1621]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

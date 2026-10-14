@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9AAE1EF5-4F52-492F-D2A3-5B075049F0A5" name="T_SPV_ITEM_NF">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 18:43:52 UTC</createdTime>
+<generatorID>66F51BB0-CD4E-4B1A-2338-D02563B651B9</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_nota_fiscal" id="71E6E4EC-3DE9-DC50-CE3F-B6CC869A5678">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 18:43:52 UTC</createdTime>
+<generatorID>A686F980-545D-CB8D-6DE4-75F0C550CDD9</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="359B37BB-66AB-39F0-7724-46963294BDC5" referredColumn="AB39615E-633D-C31C-D59B-9822AF5A640A"/>
+</associations>
+</Column>
+<Column name="qt_comercializada" id="86B8E07E-6620-CA32-56EB-95B4C3D0CFBC">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 18:43:52 UTC</createdTime>
+<generatorID>C7EAC4F9-6AF1-003A-1ECE-8D531F689DE3</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_preco_unitario" id="E46047CB-1395-37CE-3797-7773E5E5BAA5">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 18:43:52 UTC</createdTime>
+<generatorID>C9F14916-5439-92E4-51BF-EEACEEEA318F</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_preco_total_item" id="4BC72108-2E5F-663C-2C82-8EB8608C967D">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 18:43:52 UTC</createdTime>
+<generatorID>056E475E-6DD3-CB34-BE73-17A267916382</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_produto" id="1E034ECB-F40B-79BB-7D8B-DB7906C9C08F">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 18:43:52 UTC</createdTime>
+<generatorID>FCFD5675-9A31-1C32-5F3D-27E44E779FBF</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D19B688-932A-5C4A-2E1B-F959C9AC8A39" referredColumn="1DFF4451-5226-5540-2A80-A98546EFB0B5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7BA2B515-81CB-CE08-581D-9DE2F588DD13" name="PK_T_SPV_ITEM_NF">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 18:43:52 UTC</createdTime>
+<generatorID>24BAB95C-A170-39CC-812D-48EA12838DAC</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71E6E4EC-3DE9-DC50-CE3F-B6CC869A5678"/>
+<colUsage columnID="1E034ECB-F40B-79BB-7D8B-DB7906C9C08F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46450113-67B1-5889-CC19-0DCFC9F66D18" name="FK_T_SPV_ITEM_NF_NF">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 18:43:52 UTC</createdTime>
+<generatorID>6749DE8A-C30A-7E92-0315-E0D88452251A</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71E6E4EC-3DE9-DC50-CE3F-B6CC869A5678"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70C12EE4-DF10-A3DC-2E9E-6887D56536E5" name="FK_T_SPV_ITEM_NF_PRODUTO">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 18:43:52 UTC</createdTime>
+<generatorID>71E38B93-30D3-31FC-E8EA-6EF37A910804</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E034ECB-F40B-79BB-7D8B-DB7906C9C08F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

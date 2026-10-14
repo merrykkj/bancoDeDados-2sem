@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5083EF0-6CC5-27B8-1E22-DB4DD47A0E36" name="T_SIP_PROJETO">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 16:45:10 UTC</createdTime>
+<generatorID>A44B23E1-4EBA-DF4F-3328-52163648E5A3</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_projeto" id="A0F7AEF5-0C52-07E6-1417-2D0C9A74353A">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 16:45:10 UTC</createdTime>
+<generatorID>569616CA-DD75-6C13-8A20-672A3B793BE1</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_projeto" id="99756649-0C0B-3014-10DA-28BDF4525682">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 16:45:10 UTC</createdTime>
+<generatorID>EFCF1C3C-1BCC-BC0E-42CD-330CB9BDB69C</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_inicio" id="AE15DDAC-0DB4-D41A-77B0-71D100EFACAC">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 16:45:10 UTC</createdTime>
+<generatorID>713C78BB-41D8-995E-681E-B3C19CD9439F</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_termino" id="A404FEE9-4A91-9471-6C8C-B0BE59A8BA35">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 16:45:10 UTC</createdTime>
+<generatorID>6F4BBE4B-A8AD-04C0-FE1C-FAA4E74AE463</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4586BBC2-CEA8-5DDD-0731-68F1A006297A" name="PK_T_SIP_PROJETO">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 16:45:10 UTC</createdTime>
+<generatorID>64F62846-8A15-87FC-943E-66BD9CBC21EF</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0F7AEF5-0C52-07E6-1417-2D0C9A74353A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4916BE9-AAD4-C5B1-50EF-59A805068D3A" name="UN_T_SIP_PROJETO_NOME">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 18:22:59 UTC</createdTime>
+<comment><![CDATA[RN23 – Não existem projetos com nomes repetidos. ]]></comment>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99756649-0C0B-3014-10DA-28BDF4525682"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_T_SIP_PROJETO_1" directorySegmentName="seg_0" id="E5024048-36A0-8CB3-1745-44B4F2EC4E20">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 18:29:55 UTC</createdTime>
+<comment><![CDATA[RN24 – A data de término de um projeto deve ser maior que a data de início de um 
+projeto. ]]></comment>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<rule><![CDATA[DT_TERMINO > DT_INICIO]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

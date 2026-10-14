@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB25A86C-D0D6-3C93-2A11-92A5C60673B8" name="T_SPV_CLIENTE">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 18:43:52 UTC</createdTime>
+<generatorID>9D36F54C-D155-53A8-33B8-9B57762217D4</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_cliente" id="777C49B7-99DE-A883-4B7F-1B4CAB5C88A5">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 18:43:52 UTC</createdTime>
+<generatorID>50A5DF81-ECE9-22C7-1FC8-24462D8A51AB</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cliente" id="DE710B8C-4A43-1C71-5E7E-C9F909370424">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 18:43:52 UTC</createdTime>
+<generatorID>4AD5C74A-2345-A07F-EED2-5F4C9CD770D1</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="4739AAFA-09B0-8B2F-8595-B8F60BAEA084">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 18:43:52 UTC</createdTime>
+<generatorID>77B7938A-D021-641F-B451-A1F523C975EF</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_genero" id="3D93D75D-EC84-4650-10D0-A3A061A22D64">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 18:43:52 UTC</createdTime>
+<generatorID>A920D9B5-E16D-BD9D-C679-88068067F553</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_endereco" id="13BE547A-1AA1-57BE-90E1-AA21FCD5A311">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 18:43:52 UTC</createdTime>
+<generatorID>032EC62D-1DE7-1C30-57E6-361BE623D015</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_telefone" id="C22F88A0-C194-31B5-2FCF-91E0AC23E543">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 18:43:52 UTC</createdTime>
+<generatorID>A52F31F5-4487-28D1-BF1C-706ED1E23929</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="7EEDE40C-9E5E-AE60-4330-3D5781F58153">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 18:43:52 UTC</createdTime>
+<generatorID>EB0DBF64-6B6E-6E60-6B19-9EF2FD42DB34</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cpf" id="7B69A95F-EB26-78D4-8968-6833769AAEF3">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 18:43:52 UTC</createdTime>
+<generatorID>DB8BC52E-A422-8BB6-1AEC-ABF1FD5D94DE</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cpf_digito" id="73F7D252-BACE-4641-3526-9F5CDBC089E0">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 18:43:52 UTC</createdTime>
+<generatorID>76A69DD8-C1F7-A8CC-FC43-DABA7DFE6323</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_rg" id="232DC34F-2D28-4A3F-3BAD-D281DE058DB8">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 18:43:52 UTC</createdTime>
+<generatorID>49F09AFE-2E08-6B2B-E5B5-8D20FCBE2CCE</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_rg_digito" id="7586C16C-6355-4869-834E-F8ACA74209BE">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 18:43:52 UTC</createdTime>
+<generatorID>09805BF9-E88B-F73B-9AE0-A731A60BCBA1</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="005D8D1E-653E-96FE-2C98-30BC2E8AE0DA" name="PK_T_SPV_CLIENTE">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 18:43:52 UTC</createdTime>
+<generatorID>219615DA-F2E2-71A4-0214-71169C176D38</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="777C49B7-99DE-A883-4B7F-1B4CAB5C88A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

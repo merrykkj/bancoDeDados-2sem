@@ -276,15 +276,15 @@
 			</domain>
 		</domains>
 		<constraints>
-			<pk value="{table}_PK"/>
-			<fk value="{child}_{parent}_FK"/>
-			<ck value="{table}_CK"/>
-			<un value="{table}_{column}_UN"/>
+			<pk value="PK_{table}"/>
+			<fk value="FK_{child}_{parent}"/>
+			<ck value="CK_{table}"/>
+			<un value="UN_{table}_{column}"/>
 			<idx value="{table}_{column}_IDX"/>
 			<automatic_idx value="{table}_{column}_IDX"/>
 			<colck value="CK_{table}_{column}"/>
 			<colnnc value="NNC_{table abbr}_{column}"/>
-			<column_foreign_key value="{ref table}_{ref column}"/>
+			<column_foreign_key value="{ref column}"/>
 			<ui value="{entity} PK"/>
 			<relation_attribute value="{ref entity}_{ref attribute}"/>
 			<surrogate_key value="{table abbr}_PK"/>
@@ -299,7 +299,7 @@
 	<engineering_params>
 		<delete_without_origin value="false"/>
 		<engineer_coordinates value="true"/>
-		<engineer_generated value="false"/>
+		<engineer_generated value="true"/>
 		<show_engineering_intree value="false"/>
 		<apply_naming_std value="true"/>
 		<use_pref_abbreviation value="true"/>

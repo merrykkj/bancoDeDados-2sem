@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3FFE44F-9B7B-D5E4-B6DF-DF88E75D9052" name="T_SIP_DEPENDENTE">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 16:45:10 UTC</createdTime>
+<generatorID>54ED047F-F321-9B35-BF9D-3CA6A9F29616</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_matricula" id="50D67179-1159-5CB7-2026-4D43E467B2C9">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 16:45:10 UTC</createdTime>
+<generatorID>7E72AB90-58D2-4E43-6EAD-EC0D1189E5C4</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD6C28B7-69FF-43E6-BFBC-26EB367BEEF7" referredColumn="77596EAC-C256-2992-D98D-0CE6A091E93B"/>
+</associations>
+</Column>
+<Column name="cd_dependente" id="6DDD1A61-8169-C031-8318-870F0BD9A928">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 16:45:10 UTC</createdTime>
+<generatorID>AED4B211-48F4-CAC0-C9D6-0B63A1424062</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_dependente" id="1BA215BA-5CE5-E554-C74F-E71C518C9CEC">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 16:45:10 UTC</createdTime>
+<generatorID>9A6F38C5-3D34-AA0E-60F0-A8EE7306BE77</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="1EA32B58-AC4D-BF91-91E7-B3A6B70158C7">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 16:45:10 UTC</createdTime>
+<generatorID>C335CA40-85F3-EE7C-FEEF-ECCBBAF3702D</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B826723-624D-B185-4B70-F2C9AE21FAED" name="PK_T_SIP_DEPENDENTE">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 16:45:10 UTC</createdTime>
+<generatorID>8E490F00-0C02-6996-00DE-1B56FB7D4643</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DDD1A61-8169-C031-8318-870F0BD9A928"/>
+<colUsage columnID="50D67179-1159-5CB7-2026-4D43E467B2C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70868886-889B-0BB2-D35B-53CB6468F884" name="FK_T_SIP_DEPENDENTE_FUNC">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 16:45:10 UTC</createdTime>
+<generatorID>BEC7ECE1-213D-D421-7919-3D29CEE65426</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50D67179-1159-5CB7-2026-4D43E467B2C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

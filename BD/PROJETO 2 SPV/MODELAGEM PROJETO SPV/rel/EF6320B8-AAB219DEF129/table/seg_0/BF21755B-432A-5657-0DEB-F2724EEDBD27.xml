@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BF21755B-432A-5657-0DEB-F2724EEDBD27" name="T_SPV_UNID_CML">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 18:43:52 UTC</createdTime>
+<generatorID>6A16370F-DEF6-01FA-B604-760683386F7E</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_unid_cml" id="52FC91FC-1C97-1AD7-E153-4528DFCE7DCC">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 18:43:52 UTC</createdTime>
+<generatorID>7FEBD343-3E6F-AE74-D5BA-96ECF4219F02</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sg_unid_cml" id="51763820-D9DC-D520-9EFC-18465283A2EB">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 18:43:52 UTC</createdTime>
+<generatorID>334D4880-B90E-69F7-496E-9D0BFED0243E</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_unid_cml" id="8F567483-70FE-98A1-241E-A76DAB23366A">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 18:43:52 UTC</createdTime>
+<generatorID>881449FF-92D7-2407-C2B0-07D2952F1E0C</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="051AB549-4F72-CE84-CA7D-84B848FD0CA8" name="PK_T_SPV_UNID_CML">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 18:43:52 UTC</createdTime>
+<generatorID>A717FE93-345A-BB52-BEE3-B0F26FAFE800</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52FC91FC-1C97-1AD7-E153-4528DFCE7DCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C52D785-98EA-0A94-1778-778A51C7931E" name="UN_T_SPV_UNID_CML_DESC">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-14 19:07:08 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F567483-70FE-98A1-241E-A76DAB23366A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -149,5 +149,13 @@ ZERO. ]]></comment>
 -- BETWEEN -> AVALIA INTERVALOS FECHADOS
 -- VL_DESCONTO BETWEEN 0 AND 25]]></rule>
 </tableCheckConstraint>
+<tableCheckConstraint name="CK_T_SPV_NF_DATA" directorySegmentName="seg_0" id="B3B58C48-A1DA-FA8D-9332-2805DB0081F4">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-21 16:54:04 UTC</createdTime>
+<comment><![CDATA[RN36 – A data da saída da nota fiscal, deve ser maior ou igual a data da emissão da nota 
+fiscal. ]]></comment>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<rule><![CDATA[DT_SAIDA >= DT_EMISSAO]]></rule>
+</tableCheckConstraint>
 </tableCheckConstraints>
 </Table>

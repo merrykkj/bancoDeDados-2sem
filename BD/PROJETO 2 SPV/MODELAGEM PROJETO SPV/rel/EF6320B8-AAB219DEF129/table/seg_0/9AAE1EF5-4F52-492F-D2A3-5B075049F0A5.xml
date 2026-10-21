@@ -116,4 +116,21 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_T_SPV_ITEM_NF_QTDE" directorySegmentName="seg_0" id="19B72295-A919-FEC5-1D19-09243D1497C0">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-21 16:50:40 UTC</createdTime>
+<comment><![CDATA[RN32 – Quantidade vendida, deve ser um número maior que zero. ]]></comment>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<rule><![CDATA[QT_COMERCIALIZADA > 0
+]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_T_SPV_ITEM_NF_PREUNI" directorySegmentName="seg_0" id="D79A6BED-883B-EF7D-B4E8-C355CC5D62F4">
+<createdBy>aluno</createdBy>
+<createdTime>2026-10-21 16:51:37 UTC</createdTime>
+<comment><![CDATA[RN33 – Preço unitário do produto, deve ser um número decimal maior que zero. ]]></comment>
+<ownerDesignName>MODELAGEM PROJETO SPV</ownerDesignName>
+<rule><![CDATA[VL_PRECO_UNITARIO > 0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>

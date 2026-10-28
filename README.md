@@ -5,7 +5,7 @@ Repositório destinado às atividades, exercícios e projetos desenvolvidos dura
 ## Conteúdo
 
 - **Exemplos de Relacionamento:** atividades sobre relacionamentos entre entidades e tabelas.
-- **Projeto 2 SPV:** modelagem e estruturação de banco de dados.
+- **Projeto SPV:** modelagem e estruturação de banco de dados.
 - **Projeto SIP:** modelagem, criação de tabelas e definição de restrições.
 - **Scripts:** comandos SQL utilizados nos projetos.
 - **Exercícios:** atividades práticas realizadas durante as aulas.
